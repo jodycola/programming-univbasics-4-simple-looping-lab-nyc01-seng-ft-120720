@@ -30,7 +30,7 @@ end
 end
 
 def return_string_array(array)
-  counter = 1
+  counter = 0
   new = []
   
   while counter <= array.length
