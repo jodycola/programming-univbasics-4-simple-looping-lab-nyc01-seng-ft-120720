@@ -34,5 +34,9 @@ def return_string_array(array)
   new_array
   
   while counter <= array.length
+  new_array << array[counter]
+  counter += 1
+end
+return new_array
   
 end
